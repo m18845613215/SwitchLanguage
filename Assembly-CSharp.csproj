@@ -135,6 +135,7 @@
      <Compile Include="Assets\SwitchLanguage\Scripts\CallBluetooth.cs" />
      <Compile Include="Assets\SwitchLanguage\Scripts\GlobalVariables.cs" />
      <Compile Include="Assets\SwitchLanguage\Scripts\ReadConfigFiles.cs" />
+     <Compile Include="Assets\SwitchLanguage\Scripts\Socket_Base\Socket_Base.cs" />
      <Compile Include="Assets\SwitchLanguage\Scripts\SwitchLanguage.cs" />
      <Compile Include="Assets\SwitchLanguage\Scripts\UI_CameraRotaiton.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />

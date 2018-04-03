@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 public class Bluetooth
 {
-    public List<string> MacAddresses = new List<string>();//List for the Bluetooth Devices 
-    private static Bluetooth Instance_obj;//Bluetooth Singleton Object to make this class accessible
-    private AndroidJavaClass _plugin;//AndroidJavaClass Object
+    public List<string> MacAddresses = new List<string>();//List for the Bluetooth Devices 列出蓝牙设备。
+    private static Bluetooth Instance_obj;//蓝牙单例对象，使这个类可以访问。
+    private AndroidJavaClass _plugin;//AndroidJavaClass对象
     private AndroidJavaObject _activityObject;//AndroidJavaObject Object
     public static Bluetooth Instance()//Constractor
     {
